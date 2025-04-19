@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VitaBoost - Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="produit.html">Produit</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Contacte-nous</h1>
+      <p>Une question ? Une commande spéciale ? On est là pour toi.</p>
+    </div>
+  </section>
+
+  <section style="max-width: 600px; margin: 40px auto; padding: 0 20px;">
+    <form action="mailto:ilyassfrach@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin: 10px 0;">
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; margin: 10px 0;">
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 10px; margin: 10px 0;"></textarea>
+
+      <button type="submit" class="cta-btn">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 VitaBoost. Site réalisé par Ilyass Frach</p>
+  </footer>
+
+</body>
+</html>

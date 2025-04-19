@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VitaBoost - Produit</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="produit.html" class="active">Produit</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Découvre VitaBoost</h1>
+      <p>La boisson énergisante naturelle pour booster ta journée 🌿⚡</p>
+    </div>
+  </section>
+
+  <!-- Slider CSS only -->
+  <section class="slider">
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+
+    <div class="slides">
+      <div class="slide s1"><img src="images/vitaboost1.png" alt="Boisson VitaBoost 1"></div>
+      <div class="slide s2"><img src="images/vitaboost2.png" alt="Boisson VitaBoost 2"></div>
+      <div class="slide s3"><img src="images/vitaboost3.png" alt="Boisson VitaBoost 3"></div>
+    </div>
+
+    <div class="slider-nav">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+    </div>
+  </section>
+
+  <!-- Tabs CSS only -->
+  <section class="tabs-section">
+    <div class="tabs">
+      <input type="radio" id="tab1" name="tab-group" checked>
+      <label for="tab1">Ingrédients</label>
+      <input type="radio" id="tab2" name="tab-group">
+      <label for="tab2">Bienfaits</label>
+      <input type="radio" id="tab3" name="tab-group">
+      <label for="tab3">Formats</label>
+
+      <div class="content">
+        <div class="tab-content" id="content1">
+          <p>VitaBoost contient du maté, du citron bio, du gingembre et du guarana — rien d'autre !</p>
+        </div>
+        <div class="tab-content" id="content2">
+          <p>Améliore l'énergie, la concentration et réduit la fatigue sans pic de sucre ni crash.</p>
+        </div>
+        <div class="tab-content" id="content3">
+          <p>Disponible en canette 33cl, bouteille 75cl ou pack de 6.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <a href="contact.html" class="cta-btn">Commander maintenant</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 VitaBoost. Site réalisé par Ilyass Frach</p>
+  </footer>
+
+</body>
+</html>
